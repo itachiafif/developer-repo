@@ -65,7 +65,7 @@ span{
 }
 .first-ghoul img{
     width: 70%;
-    border-radius: 50%;
+    border-radius: 20px;
     
 }
  p{
@@ -84,13 +84,24 @@ span{
     margin-top:15px;
 }
 .second-ghoul img{
-    width: 80%;
+    width: 70%;
     border-radius: 15px;
-    margin-left: 50px;
-    background-image: url(img/shape-1.png);
-    background-repeat: no-repeat;
+    margin-left: 80px;
 }
 
+#bg-img{
+    background-image: url(img/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 210px;
+    background-position: left;
+   
+}
+#bg-img2{
+    background-image: url(img/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: right;
+}
 footer{
     margin-top: 50px;
     text-align: center;
