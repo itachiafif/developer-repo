@@ -23,9 +23,9 @@ span{
     padding-right: 20px;
 }
 .flexiable{
-    width: 95%;
+    width: 100%;
     display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
    text-align: left;
 }
 #unique{
@@ -33,22 +33,35 @@ span{
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 70px;
 
 }
 .flexiable-1{
+    flex-basis: 25%;
     border: 1px solid greenyellow;
     border-radius: 10px;
-    padding: 40px 90px;
-    margin: 10px 15px;
+    padding: 10px 25px;
+    margin: 10px 0px;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
-    background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
 }
+.flexiable-1 img{
+    width: 50%;
+}
 
-.first-ghoul{
+.first-ghoul  {
     width: 70%;
     margin-top: 15px;
-    text-align: center;
+    margin-left: 100px;
+    text-align: left;
+}
+.first-ghoul icon::after{
+    content: "";
+    width: 5px;
+    height: 50px;
+    background: tomato;
+    display: block;
+   
 }
 .first-ghoul img{
     width: 70%;
@@ -71,49 +84,47 @@ span{
     margin-top:15px;
 }
 .second-ghoul img{
-    width: 90%;
+    width: 80%;
     border-radius: 15px;
     margin-left: 50px;
-}
-.top-ban{
-    background-image: url(img/top-banner.png);
-    background-repeat: no-repeat;
-}
-.top-ban2{
-    background-image: url(img/exp-bg.png);
+    background-image: url(img/shape-1.png);
     background-repeat: no-repeat;
 }
 
-.box-o{
-   color: rgba(6, 7, 6, 0.952);
-   font-size: 20px;
-}
-article{
-    width: 100%;
-    box-sizing: none;
-    background-image: url(img/thumb-1920-545909.jpg);
-    background-size: cover ;
-    border: none;
-    font-size: medium;
-    border-bottom: 1px solid rgb(3, 27, 3);
-}
-article h1{
-    padding-top: 5px;
-    font-size: 25px;
-    text-align: left;
-    color: rgb(241, 247, 248);
-}
-
-article button{
-    padding: 15px 196x 15px 204px;
-    border: none;
-    border-radius: 4px;
-    background: rgb(219, 163, 7);
-}
 footer{
-    margin: 10px;
+    margin-top: 50px;
     text-align: center;
     border: 1px solid white;
-    padding: 10px 15px;
-    color:black;
+    padding: 20px 15px;
+    color:white;
+    background-color: tomato;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+footer h1{
+    font-family: cursive;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+}
+/*--------------box bgcolor---------*/
+#bg-color1{
+    background-color: rgba(153, 205, 50, 0.692);
+}
+#bg-color2{
+    background-color: rgba(30, 81, 190, 0.548);
+}
+#bg-color3{
+    background-color: rgba(204, 137, 36, 0.829);
+}
+.straight-line{
+    width: 2px;
+    height: 90px;
+    position: absolute;
+    margin: 45px 0 0 86px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    display: block;
+    border-radius: 2px;
+   
 }
