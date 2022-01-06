@@ -15,13 +15,36 @@ span{
  p{
     line-height: 20px;
 }
-section{
+.flexi-cont{
     display: flex;
     margin-top: 2%;
     margin-bottom: 5px;
     padding-left: 20px;
     padding-right: 20px;
 }
+.flexiable{
+    width: 95%;
+    display: flex;
+   justify-content: space-around;
+   text-align: left;
+}
+#unique{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.flexiable-1{
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    padding: 40px 90px;
+    margin: 10px 15px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+}
+
 .first-ghoul{
     width: 70%;
     margin-top: 15px;
@@ -66,7 +89,7 @@ section{
    font-size: 20px;
 }
 article{
-    width: 85%;
+    width: 100%;
     box-sizing: none;
     background-image: url(img/thumb-1920-545909.jpg);
     background-size: cover ;
@@ -77,7 +100,7 @@ article{
 article h1{
     padding-top: 5px;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
     color: rgb(241, 247, 248);
 }
 
@@ -87,5 +110,10 @@ article button{
     border-radius: 4px;
     background: rgb(219, 163, 7);
 }
-
-
+footer{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px 15px;
+    color:black;
+}
